@@ -1,0 +1,52 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,400;1,500&family=PT+Sans+Narrow:wght@400;700&display=swap');
+* {
+    --cor-principal-fundo: rgb(223, 223, 20);
+    --cor-fonte-botao: white;
+    background-color: var(--cor-principal-fundo);
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+}
+main {
+    border: hidden red 1px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dale {
+    margin:20px 10px;
+    padding: 5px 10px;
+    font-family: 'Arimo',sans-serif;
+    border-radius: 3px;
+    border: 1px solid rgb(37, 190, 236);
+    box-shadow: rgb(14, 19, 19);
+    
+}
+
+h1 {
+    font-size: 1.3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.dale:hover {
+    color: var(--cor-fonte-botao);
+    background-color: chartreuse;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+article {
+    margin: -20px;
+    margin: top 50px;
+}
+
+footer {
+    margin-top: 15%;
+    font-size: 0.6em;
+}
+
